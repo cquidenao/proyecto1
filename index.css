@@ -23,11 +23,11 @@
     list-style: none;
   }
   
-  .wrap-cta{
+  .wrap-btn{
     padding: 1.5rem 0;
   }
   
-  .cta-a{
+  .btn-a{
     color: #fff;
     font-weight: bold;
     font-size: 1.2rem;
@@ -61,9 +61,9 @@
     width: 100%;
   }
   
-  /** Hero Section **/
+  /** banner Section **/
   
-  .hero-section{
+  .banner-section{
     height: 90vh;
     background: url(img/img-hero-agencia.webp);
     background-position: center;
@@ -75,7 +75,7 @@
     align-items: center;
   }
   
-  .wrap-hero-section{
+  .wrap-banner-section{
     max-width: 600px;
     color: #fff;
     padding: 15%;
@@ -103,9 +103,9 @@
     filter: grayscale(1);
   }
   
-  /** Wrap Title **/
+  /** Wrap Titulo **/
   
-  .wrap-title-section{
+  .wrap-titulo-section{
     display: flex;
     justify-content: center;
     margin: 3rem 1rem;
@@ -128,34 +128,36 @@
     height: 225px;
   }
   
-  /** Two Columns Section **/
+  /** dos columas Section **/
   
-  .wrap-two-column{
+  .wrap-dos-columnas{
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 1200px;
     margin: 0 auto;
   }
   
-  .wrap-img_two-column{
+  .wrap-img_dos-columnas img{
     padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column;
+    width: 400px;
+    height: 400px;
   }
   
-  .wrap-text-column h3{
+  .wrap-texto-columnas h3{
     padding: 2rem 0;
   }
   
-  .wrap-text-column p{
+  .wrap-texto-columnas p{
     padding-bottom: 1rem;
   }
   
   /** Form Section **/
   
-  section.two-column-section.form{
+  .dos-columnas-section.form{
     background-color: #f2f2f2;
     padding: 3rem 0;
   }
@@ -205,7 +207,7 @@
     padding: 1.5rem;
   }
   
-  .footer-creds{
+  .footer-creditos{
     display: flex;
     justify-content: center;
   }
