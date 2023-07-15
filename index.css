@@ -13,6 +13,7 @@
   
   p{
     font-size: 1.1rem;
+    color: black;
   }
   
   a{
@@ -112,7 +113,24 @@
   }
   
   /** Servicios Section **/
+
+  .cartas{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+  }
   
+  .cartas:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  
+  }
+
+  .cartas {
+    padding: 2px 16px;
+  
+  }
+
+
   .wrap-servicios-section{
     display: flex;
     flex-flow: row wrap;
